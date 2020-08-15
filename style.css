@@ -1,0 +1,159 @@
+@media screen and(max-width:360px){
+    .form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 95vw;
+        height: 100vh;
+        border-radius: 20px;
+        background-image: url("BG.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .new{
+        display: grid;
+        width: 800px;
+        height: 600px;
+        grid-template-rows: 60px auto;
+    }
+    .object{
+        background-color: rgb(220, 150, 20);
+        display: flex;
+        justify-content: space-around;
+        border-radius: 20px;
+    }
+    .fine{
+        background-color:  rgb(220, 150, 20);
+        padding: 50px;
+        border-radius: 20px;
+
+    }
+    .member:hover{
+        background-color: rgb(230, 122, 0);
+    }
+    .member{
+        list-style-type: none;
+        background-color: seashell;
+        width: 50%;
+        margin-bottom: 15px;
+        padding: 15px 20px;
+    }
+    .btn{
+        background-color: white;
+        color: black;
+        padding: 15px 20px;
+    }
+    .btn:hover{
+        background-color: sandybrown;
+    }
+   
+    .mee{
+        background-color: rosybrown;
+    }
+    .none{
+        text-align: center;
+        font-style: italic;
+        color: crimson;
+        border: 10px solid black;
+        font-weight: bold;
+        height: 100px;
+        border-radius: 20px;
+        font-size: 80px;
+        background-color: rgb(35, 44, 36);
+        margin-left: 5%;
+
+    
+    }
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98vw;
+    height: 100vh;
+    border-radius: 20px;
+    background-image: url("BG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 20%;
+
+}
+
+
+.new{
+    display: grid;
+    width: 800px;
+    height: 600px;
+    grid-template-rows: 60px auto;
+    margin-top: 0%;
+}
+.object{
+    background-color:rgb(14, 32, 19);
+    display: flex;
+    justify-content: space-around;
+  color: white;
+    border-radius: 20px;
+}
+.fine{
+    background-color: rgb(220, 150, 20);
+    padding: 50px;
+    border-radius: 20px;
+
+}
+
+
+
+
+
+
+.member:hover{
+    background-color: sandybrown;
+}
+.member{
+    list-style-type: none;
+    background-color: seashell;
+    width: 50%;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+}
+.btn{
+    background-color: white;
+    color: black;
+    padding: 15px 20px;
+}
+.btn:hover{
+    background-color: sandybrown;
+}
+.active{
+    background-color: black;
+    color: green;
+}
+
+.wrong{
+    background-color: black;
+    color: red;
+}
+.mee{
+    background-color: rosybrown;
+}
+.none{
+    text-align: center;
+    font-style: italic;
+    color: rgb(220, 150, 20);
+     border: 5px solid black;
+    font-weight: bold;
+     border-radius: 20px;
+    font-size: 20px;
+    background-color: gray;
+    margin-bottom: 1%;
+    width: 95%;
+    margin-left: 2%;
+    
+
+
+}
+.none{
+    background-image: url("BG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
